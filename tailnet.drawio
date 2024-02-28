@@ -1,20 +1,107 @@
-<mxfile modified="2024-02-28T21:14:52.199Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="39-DIoMBxhSPrn3mdINH" version="23.1.7" type="github">
+<mxfile modified="2024-02-28T21:39:02.895Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="04w0dOWiAg3uulPPrzZ_" version="23.1.7" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5lbM_MutUm4mmqYNjp2k-3" value="&lt;div&gt;Home Router&lt;/div&gt;&lt;div&gt;10.10.10.0/24&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/Router.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="380" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5lbM_MutUm4mmqYNjp2k-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-5">
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-3" target="5lbM_MutUm4mmqYNjp2k-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5lbM_MutUm4mmqYNjp2k-4" value="&lt;div&gt;Offsite Router&lt;/div&gt;&lt;div&gt;192.168.10.1/24&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/Router.svg;" vertex="1" parent="1">
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-3" target="5lbM_MutUm4mmqYNjp2k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-3" value="&lt;div&gt;Home Router&lt;/div&gt;&lt;div&gt;10.10.10.1/24&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/Router.svg;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-4" value="&lt;div&gt;Remote Router&lt;/div&gt;&lt;div&gt;192.168.10.1/24&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/Router.svg;" vertex="1" parent="1">
           <mxGeometry x="910" y="384" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5lbM_MutUm4mmqYNjp2k-5" value="&lt;div&gt;Pi1B+&lt;/div&gt;&lt;div&gt;192.168.10.250&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1">
-          <mxGeometry x="1030" y="240" width="50" height="50" as="geometry" />
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-5" value="&lt;div&gt;tailscale running on Pi1B+&lt;/div&gt;&lt;div&gt;192.168.10.250/24&lt;/div&gt;&lt;div&gt;advertise-routes=192.168.10.0/24&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1">
+          <mxGeometry x="1080" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-9" value="&lt;div&gt;QNAP&lt;/div&gt;&lt;div&gt;192.168.10.251/24&lt;/div&gt;&lt;div&gt;Offsite backup from home truenas/qnap&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local storage for remote site&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas_backup;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="290" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="207.94" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-3" target="5lbM_MutUm4mmqYNjp2k-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-14" value="&lt;div&gt;&lt;div&gt;TrueNAS&lt;/div&gt;&lt;div&gt;10.10.10.3/24&lt;/div&gt;&lt;div&gt;backup by rsync&amp;nbsp;&lt;/div&gt;&lt;div&gt;to qnap(10.10.10.4)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas_backup;" vertex="1" parent="1">
+          <mxGeometry x="120" y="324" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-15" value="&lt;div&gt;QNAP&lt;/div&gt;&lt;div&gt;10.10.10.4/24&lt;/div&gt;&lt;div&gt;Local backup of truenas&lt;/div&gt;&lt;div&gt;Backup of remote site storage&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas_backup;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-18" value="&lt;div&gt;Tailscale running on linux vm&amp;nbsp;&lt;/div&gt;&lt;div&gt;10.10.10.5&lt;/div&gt;&lt;div&gt;advertise-exit-node&lt;/div&gt;&lt;div&gt;advertise-routes=10.10.10.0/24&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-3" target="5lbM_MutUm4mmqYNjp2k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-15" target="5lbM_MutUm4mmqYNjp2k-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.99;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-5" target="5lbM_MutUm4mmqYNjp2k-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="520" as="sourcePoint" />
+            <mxPoint x="330" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-27" value="&lt;div&gt;tunnel between the 2 sites&lt;/div&gt;&lt;div&gt;rsync both ways &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5lbM_MutUm4mmqYNjp2k-21">
+          <mxGeometry x="0.7124" relative="1" as="geometry">
+            <mxPoint x="268" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-5" target="5lbM_MutUm4mmqYNjp2k-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="450" as="sourcePoint" />
+            <mxPoint x="1090" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-23" value="tailscale on phone" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-11" target="5lbM_MutUm4mmqYNjp2k-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-23" target="5lbM_MutUm4mmqYNjp2k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-28" value="phone to home net functional" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5lbM_MutUm4mmqYNjp2k-25">
+          <mxGeometry x="-0.2171" y="3" relative="1" as="geometry">
+            <mxPoint x="17" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-23" target="5lbM_MutUm4mmqYNjp2k-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="610" as="sourcePoint" />
+            <mxPoint x="836" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-29" value="access from phone to remote" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5lbM_MutUm4mmqYNjp2k-26">
+          <mxGeometry x="-0.0935" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-30" value="&lt;div&gt;computers on remote site&lt;/div&gt;&lt;div&gt;with access to qnap here&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=top;html=1;verticalAlign=bottom;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="915" y="270" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
