@@ -1,4 +1,4 @@
-<mxfile modified="2024-02-28T21:39:02.895Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="04w0dOWiAg3uulPPrzZ_" version="23.1.7" type="github">
+<mxfile modified="2024-02-29T18:21:27.932Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="cCYJ4JlseJYAmZzp6Mdj" version="23.1.7" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -98,9 +98,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5lbM_MutUm4mmqYNjp2k-30" value="&lt;div&gt;computers on remote site&lt;/div&gt;&lt;div&gt;with access to qnap here&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=top;html=1;verticalAlign=bottom;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="915" y="270" width="50" height="45" as="geometry" />
+          <mxGeometry x="880" y="270" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="5lbM_MutUm4mmqYNjp2k-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-30">
+        <mxCell id="5lbM_MutUm4mmqYNjp2k-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5lbM_MutUm4mmqYNjp2k-4" target="5lbM_MutUm4mmqYNjp2k-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
